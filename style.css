@@ -211,6 +211,7 @@ li:hover{
 .products-contents{
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
 }
 
 .products-game{
@@ -235,6 +236,7 @@ li:hover{
     color: white;
     text-decoration: none;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .download:hover{
