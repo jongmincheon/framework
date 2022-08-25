@@ -1,0 +1,246 @@
+
+
+  /*html*/
+
+
+body{
+    background-color: #07071f;
+    margin: 0;
+}
+
+/*Framework*/
+
+.frame{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 150px;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    background-color: #07071f;
+    font-family: 'Gugi', sans-serif;
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 99%;
+}
+
+.logo{
+    height: 70px;
+}
+
+.nav-menu{
+    color: white;
+    text-decoration-line: none;
+}
+
+li{
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.ul1{
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;
+}
+
+li:hover{
+    text-decoration-line: underline;
+}
+
+.hello{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-weight: 500;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 150px;
+}
+
+.hello-content{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 250px;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.value-name{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    justify-content: space-between;
+}
+
+.value-content{
+    font-family: 'Gugi', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    line-height: 150%;
+
+    margin-left: 50px;
+}
+
+.value-img1{
+    width: 30%;
+    height: auto;
+}
+
+.value-img2{
+    width: 20%;
+    height: auto;
+}
+
+/*about-us*/
+
+.Framework2022{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-size: 50px;
+    margin-top: 120px;
+}
+
+.members{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+
+    margin-top: 0px;
+}
+
+.member-explain{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.about-us-frame{
+    margin-top: 0;
+}
+
+/*activities*/
+
+.example{
+    font-family: 'Gugi', sans-serif;
+    font-size: 40px;
+    color: white;
+
+    margin-top: 10%;
+}
+
+.activities-frame{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+.links{
+    color: white;
+    text-decoration-line: none;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: 'Gugi', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.links:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.explanation{
+    font-family: 'Gugi', sans-serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.activities-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5px;
+}
+
+/*products*/
+
+.products-frame{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.products-menu{
+    font-family: 'Gugi', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    margin-top: 130px;
+}
+
+.products-contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.products-game{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.products-explanation{
+    color: white;
+    font-family: 'Gugi', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.download{
+    font-family: 'Gugi', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.download:hover{
+    text-decoration: underline;
+}
+
+.download-link{
+    margin-bottom: 20px;
+}
